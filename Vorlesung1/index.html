@@ -1,41 +1,69 @@
 <html>
     <head>
         <title>Andreas Paech | Personal Website</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h1>Andreas Paech</h1>
-        <img src="./profilbild.jpeg" alt="" />
-        <a href="https://linkedin.com/andreaspaech2"
-            >zu meinem LinkedIn Profil</a
-        >
-        <h2>Projektportfolio</h2>
-        <p>Meine Stationen umfassen folgende Unternehmen</p>
-        <ul>
-            <li>
-                CHECK24
-                <ol>
-                    <li>
-                        Senior Software Developer & Architect
-                        <ol>
-                            <li>lorem ipsum</li>
-                            <li>lorem ipsum</li>
-                        </ol>
-                    </li>
-                    <li>Teamleitung IT</li>
-                </ol>
-            </li>
-            <li>Etribes</li>
-            <li>Uni Hamburg</li>
-        </ul>
-        <h3>CHECK24</h3>
-        <h3>Etribes</h3>
-        <h3>Uni Hamburg</h3>
+        <div id="content">
+        <header>
+            <h1>Andreas Paech</h1>
+            <nav>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a href="./projekte.html">Projekte</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <h2>Über mich</h2>
-        <p>
-            Ich bin ein Hochschuldozent für Web-Technologie. Meine Studierenden
-            reden aber nicht so gerne mit mir. Vielleicht weil sie Informatiker
-            sind.
-        </p>
+        <div>
+            <aside>
+                <img src="./profilbild.jpeg" alt="" />
+                <a href="https://linkedin.com/andreaspaech2"
+                    >zu meinem LinkedIn Profil</a
+                >
+            </aside>
+
+            <main>
+                <article>
+                    <h2>Projektportfolio</h2>
+                    <p>Meine Stationen umfassen folgende Unternehmen</p>
+                    <ul>
+                        <li>
+                            CHECK24
+                            <ol class="small-list">
+                                <li>
+                                    Senior Software Developer & Architect
+                                    <ol class="small-list">
+                                        <li>lorem ipsum</li>
+                                        <li>lorem ipsum</li>
+                                    </ol>
+                                </li>
+                                <li>Teamleitung IT</li>
+                            </ol>
+                        </li>
+                        <li>Etribes</li>
+                        <li>Uni Hamburg</li>
+                    </ul>
+                    <h3>CHECK24</h3>
+                    <h3>Etribes</h3>
+                    <h3>Uni Hamburg</h3>
+                </article>
+
+                <article>
+                    <h2>Über mich</h2>
+                    <p>
+                        Ich bin ein Hochschuldozent für Web-Technologie. Meine
+                        <span>Studierenden</span> reden aber nicht so gerne mit
+                        mir. Vielleicht weil sie <div>Informatik</div> sind.
+                    </p>
+                </article>
+            </main>
+        </div>
+
+        <footer>
+            <a>Impressum</a>
+            <a>Datenschutz</a>
+        </footer>
+    </div>
     </body>
 </html>
