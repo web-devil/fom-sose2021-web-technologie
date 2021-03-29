@@ -8,13 +8,13 @@
 # Git Commands
 
 -   Änderungen hinzufügen
--   git add .
+-   `git add .`
 -   Änderungen einen Namen geben
--   git commit -m "xxx"
+-   `git commit -m "xxx"`
 -   Änderungen auf Server packen
--   git push
+-   `git push`
 -   Änderungen vom Server holen
--   git pull
+-   `git pull`
 -   Branch erzeugen und dahin wechseln
--   git checkout -b name
+-   `git checkout -b name`
 -   Pull Request um Branches zusammenzuführen
