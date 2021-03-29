@@ -17,3 +17,4 @@
 -   git pull
 -   Branch erzeugen und dahin wechseln
 -   git checkout -b name
+-   Pull Request um Branches zusammenzuführen
