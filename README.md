@@ -15,3 +15,5 @@
 -   git push
 -   Änderungen vom Server holen
 -   git pull
+-   Branch erzeugen und dahin wechseln
+-   git checkout -b name
