@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ImageList from './ImageList';
 import ImageUpload from './ImageUpload';
 
@@ -13,6 +13,16 @@ export default function ImageRoot() {
             path: 'urlaub2.png',
         },
     ]);
+
+    // fetch().then() => BAD, because it would render an HTTP request for every re-render
+
+    useEffect(() => {
+        console.log(JSON.stringify(imageList));
+    }, [imageList]);
+
+    useEffect(() => {
+        console.log('empty useEffect Array');
+    }, []);
 
     console.log('Image root initial imagelist ', imageList);
 

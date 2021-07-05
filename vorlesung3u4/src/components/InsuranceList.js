@@ -7,17 +7,12 @@ export default function InsuranceList() {
         { name: 'Hanse Merkur' },
         { name: 'Ottonova' },
     ];
-
     console.log('Insurance list rendering');
 
     return (
         <ul>
             {insurances.map((insurance) => {
-                return (
-                    <li>
-                        <h2>{insurance.name}</h2>
-                    </li>
-                );
+                return <li>{insurance.name}</li>;
             })}
         </ul>
     );

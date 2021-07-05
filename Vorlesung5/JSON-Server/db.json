@@ -1,0 +1,19 @@
+{
+    "articles": [
+        {
+            "id": 2,
+            "title": "VERÄNDERT MT EINEM API-Call // HTTP Request",
+            "authorId": 1
+        },
+        {
+            "id": 3,
+            "title": "How to use cURL",
+            "authorId": 1
+        }
+    ],
+    "comments": [],
+    "author": {
+        "id": 1,
+        "name": "Andreas Paech"
+    }
+}
